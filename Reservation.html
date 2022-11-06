@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/Reservation.css">
+        <title>Reservation</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <div class="parent">
+            <header class="sticky-nav">
+                <a href="#">
+                    <h2>view menu</h2>
+                </a>
+                <a href="#">
+                    <h2>catering</h2>
+                </a>
+                <a href="#">
+                    <h2>reserve a table</h2>
+                </a>
+            </header>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check">
+                    <ion-icon name="menu" id="btn"></ion-icon>
+                    <ion-icon name="close" id="cancel"></ion-icon>
+                </label>
+                <div class="sidebar">
+                    <header>jorum<span class="dot">.</span></header>
+                    <div class="search-parent">
+                        <form action="https://www.google.com/search"
+                            method="get" class="search-bar">
+                            <input type="text" placeholder="search" name="q">
+                            <button type="submit"><ion-icon class="search-icon"
+                                    name="search"></ion-icon></button>
+                        </form>
+                    </div>
+                    <a id="sidebar-links" href="index.html">
+                        <ion-icon id="icons" name="home-outline"></ion-icon>
+                        <span class="sidebar-content">home</span>
+                    </a>
+                    <a id="sidebar-links" href="Reservation.html"
+                        class="active">
+                        <ion-icon id="icons" name="link-outline"></ion-icon>
+                        <span class="sidebar-content">reserve</span>
+                    </a>
+                    <a id="sidebar-links" href="menu.html">
+                        <ion-icon id="icons" name="book-outline"></ion-icon>
+                        <span class="sidebar-content">menus</span>
+                    </a>
+                    <a id="sidebar-links" href="events.html">
+                        <ion-icon id="icons" name="glasses-outline"></ion-icon>
+                        <span class="sidebar-content">events</span>
+                    </a>
+                    <a id="sidebar-links" href="contact.html">
+                        <ion-icon id="icons" name="call-outline"></ion-icon>
+                        <span class="sidebar-content">contact us</span>
+                    </a>
+                    <a id="sidebar-links" href="story.html">
+                        <ion-icon id="icons" name="alert-circle-outline"></ion-icon>
+                        <span class="sidebar-content">our story</span>
+                    </a>
+                </div>
+            </nav>
+            <main>
+                <div class="main-background"></div>
+                <div class="caption1">
+                    <h2>find your best place
+                        <br>
+                        <a href="#">make a reservation</a>
+                    </h2>
+                </div>
+                <div class="form-parent">
+                    <form novalidate method="get" target="_blank">
+                        <div class="item item1 box box1">
+                            <h2>reserve a table</h2>
+                        </div>
+                        <div class="item item2 box box2">
+                            <label for="name">your name*</label>
+                            <input placeholder="name" type="text" id="name">
+                        </div>
+                        <div class="item item3 box box3">
+                            <label for="numebr">phone number*</label>
+                            <input placeholder="+20123456789" type="text"
+                                id="numebr">
+                        </div>
+                        <div class="item item4 box box4">
+                            <label for="date">choose date</label>
+                            <input type="date" id="date" min="2022-10"
+                                value="2022-10">
+                        </div>
+                        <div class="item item5 box box5">
+                            <label for="time">choose time</label>
+                            <input type="time" id="time">
+                        </div>
+                        <div class="item item6 box box6">
+                            <label for="locate">your location</label>
+                            <select name="loc" id="locate">
+                                <option value="cairo">cairo</option>
+                                <option value="giza" selected>giza</option>
+                                <option value="alexandria">alexandria</option>
+                                <option value="alexandria">port said</option>
+                                <option value="alexandria">suez</option>
+                                <option value="alexandria">luxor</option>
+                                <option value="alexandria">aswan</option>
+                                <option value="alexandria">hurghada</option>
+                            </select>
+                        </div>
+                        <button class="item7" type="submit">
+                            proceed to <br> next step
+                        </button>
+                    </form>
+                </div>
+            </main>
+            <section>
+                <div class="space-background"></div>
+                <h2 class="caption2">jorum.'s favorites</h2>
+                <div class="drawing-parent">
+                    <div class="drawing-child"></div>
+                </div>
+
+                <div class="slideshow-overlay">
+                    <div class="overlay-child">
+                        <img src="library/eneida-nieves-803963.jpg"
+                            alt="" class="overlay-image">
+                        <div class="overlay-middle">
+                            <div class="overlay-text"><span>pasta & Parmesan
+                                    cheese</span>
+                                Always a classic, always delicious
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overlay-child">
+                        <img src="library/horizon-content-3915855.jpg"
+                            alt="" class="overlay-image">
+                        <div class="overlay-middle">
+                            <div class="overlay-text">
+                                <span>OUR FAMOUS “pizza”</span>One bite
+                                and you’ll know why it’s famous
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overlay-child">
+                        <img src="library/jonathan-borba-2878739.jpg"
+                            alt="" class="overlay-image">
+                        <div class="overlay-middle">
+                            <div class="overlay-text"><span>lamb ribs</span>
+                                So good, it’s like sitting down to a secret
+                                family recipe.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overlay-child">
+                        <img src="library/horizon-content-3763847.jpg"
+                            alt="" class="overlay-image">
+                        <div class="overlay-middle">
+                            <div class="overlay-text"><span>SALMON WITH CRISPY
+                                    CALABRIAN SHRIMP</span>
+                                Spicy flavor makes a big impression.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="outer">
+                    <a href="#" class="inner view">
+                        <div class="top left"></div>
+                        <div class="top right"></div>
+                        <div class="card-content">view menu</div>
+                        <div class="bottom right"></div>
+                        <div class="bottom left"></div></a>
+                </div>
+
+                <div class="drawing-border">
+                    <div>new eclub members save 10% on your next visit. <span>sign
+                            up and save today! </span>
+                    </div>
+                </div>
+                <div class="drawing-parent">
+                    <div class="drawing-child"></div>
+                </div>
+                <div class="giving-parent">
+                    <div class="giving-img-parent">
+                        <img src="library/lalezarfa-11520127.jpg" alt=""
+                            class="giving-img">
+                    </div>
+                    <div class="giving-content">
+                        <h2 class="giving-header">
+                            thanksgiving at jorum.
+                        </h2>
+                        <p class="giving-p">
+                            Gathering around the table with family and friends
+                            is a Thanksgiving. <br> We have plenty of ways to
+                            make
+                            your day's feast special, including our family
+                            Thanksgiving menu.
+                        </p>
+                        <div class="outer">
+                            <a href="#" class="inner view">
+                                <div class="top left"></div>
+                                <div class="top right"></div>
+                                <div class="card-content">view menu</div>
+                                <div class="bottom right"></div>
+                                <div class="bottom left"></div></a>
+                        </div>
+                        <div class="outer">
+                            <a href="#" class="inner last">
+                                <div class="top left"></div>
+                                <div class="top right"></div>
+                                <div class="card-content">make a reservation</div>
+                                <div class="bottom right"></div>
+                                <div class="bottom left"></div></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="events-parent">
+                    <div class="events-content">
+                        <h2 class="events-header">
+                            EVENTS & CATERING
+                        </h2>
+
+                        <p class="events-p">
+                            Whether you’d like to celebrate a big day in a
+                            private banquet room or get a big group together at
+                            home or in the office, we’re here to make it
+                            delicious.
+                        </p>
+                        <div class="outer">
+                            <a href="#" class="inner final">
+                                <div class="top left"></div>
+                                <div class="top right"></div>
+                                <div class="card-content">private events</div>
+                                <div class="bottom right"></div>
+                                <div class="bottom left"></div></a>
+                        </div>
+                        <div class="outer">
+                            <a href="#" class="inner lastone">
+                                <div class="top left"></div>
+                                <div class="top right"></div>
+                                <div class="card-content">catering options</div>
+                                <div class="bottom right"></div>
+                                <div class="bottom left"></div></a>
+                        </div>
+                    </div>
+                    <div class="events-img-parent">
+                        <div class="events-img"></div>
+                        <div class="top2 left2"></div>
+                        <div class="top2 right2"></div>
+                        <div class="bottom2 right2"></div>
+                        <div class="bottom2 left2"></div>
+                    </div>
+                </div>
+                <div class="drawing-border-last">
+                </div>
+                <div class="drawing-parent last">
+                    <div class="drawing-child"></div>
+                </div>
+                <div class="last-content">
+                    <div class="last-content-child"><img
+                            src="library/cottonbro-4253312 (1).jpg"
+                            alt="" class="last-content-img">
+                        <h2>
+                            CAREERS
+                        </h2>
+                        <p>
+                            Be part of our family—and part of our mission to
+                            make every guest feel special.
+                        </p>
+                    </div>
+                    <div class="last-content-child"><img src="library/HELLO.png"
+                            alt="" class="last-content-img">
+                        <h2>
+                            our book
+                        </h2>
+                        <p>
+                            We did it and created our own cookbook
+                            This book contains our years of experience.
+                        </div>
+                        <div class="last-content-child"><img
+                                src="library/hey.png"
+                                alt="" class="last-content-img">
+                            <h2>
+                                hope come again
+                            </h2>
+                            <p>
+                                We will always try to be at your best
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <div class="footer-parent-icons">
+                    <span title="facebook">
+                        <a class="footer-icons1"
+                            href="#"><ion-icon
+                                style="pointer-events:
+                                none;"
+                                name="logo-facebook"></ion-icon></a>
+                    </span>
+                    <span title="instagram">
+                        <a class="footer-icons2" href="#"><ion-icon
+                                style="pointer-events:
+                                none;"
+                                name="logo-instagram"></ion-icon></a>
+                    </span>
+                    <span title="twitter">
+                        <a class="footer-icons3" href="#"><ion-icon
+                                style="pointer-events:
+                                none;"
+                                name="logo-twitter"></ion-icon></a>
+                    </span>
+                </div>
+            </footer>
+            <footer class="footer-parent3">
+                <h3>© 2021 jorum Group / jorum. All Rights Reserved.</h3>
+                <a href="#">Terms & Privacy Policy</a>
+                <a href="#">careers</a>
+                <a href="#">Managed by Creating Digital</a>
+            </footer>
+        </div>
+        <script type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/menu.css">
+        <title>menu</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <div class="parent">
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check">
+                    <ion-icon name="menu" id="btn"></ion-icon>
+                    <ion-icon name="close" id="cancel"></ion-icon>
+                </label>
+                <div class="sidebar">
+                    <header>jorum<span class="dot">.</span></header>
+                    <div class="search-parent">
+                        <form action="https://www.google.com/search"
+                            method="get" class="search-bar">
+                            <input type="text" placeholder="search" name="q">
+                            <button type="submit"><ion-icon class="search-icon"
+                                    name="search"></ion-icon></button>
+                        </form>
+                    </div>
+                    <a id="sidebar-links" href="index.html">
+                        <ion-icon id="icons" name="home-outline"></ion-icon>
+                        <span class="sidebar-content">home</span>
+                    </a>
+                    <a id="sidebar-links" href="Reservation.html">
+                        <ion-icon id="icons" name="link-outline"></ion-icon>
+                        <span class="sidebar-content">reserve</span>
+                    </a>
+                    <a id="sidebar-links" href="menu.html" class="active">
+                        <ion-icon id="icons" name="book-outline"></ion-icon>
+                        <span class="sidebar-content">menus</span>
+                    </a>
+                    <a id="sidebar-links" href="events.html">
+                        <ion-icon id="icons" name="glasses-outline"></ion-icon>
+                        <span class="sidebar-content">events</span>
+                    </a>
+                    <a id="sidebar-links" href="contact.html">
+                        <ion-icon id="icons" name="call-outline"></ion-icon>
+                        <span class="sidebar-content">contact us</span>
+                    </a>
+                    <a id="sidebar-links" href="story.html">
+                        <ion-icon id="icons" name="alert-circle-outline"></ion-icon>
+                        <span class="sidebar-content">our story</span>
+                    </a>
+                </div>
+            </nav>
+            <main>
+                <div class="main-background"></div>
+                <div class="caption1">
+                    <h2>menu</h2>
+                </div>
+            </main>
+            <h2 class="menu-header">
+                every taste you love
+            </h2>
+            <section>
+                <div class="menu-parent">
+
+                    <form novalidate method="get" target="_blank">
+                        <div>
+                            <select name="loc">
+                                <option value="cairo">cairo</option>
+                                <option value="giza">giza</option>
+                                <option value="alexandria">alexandria</option>
+                                <option value="port said">port said</option>
+                                <option value="suez">suez</option>
+                                <option value="luxor">luxor</option>
+                                <option value="aswan">aswan</option>
+                                <option value="hurghada">hurghada</option>
+                            </select>
+                        </div>
+                        <div>
+
+                            <select name="menu">
+                                <option value="cairo">view all categories</option>
+                                <option value="cairo">dinner</option>
+                                <option value="giza">lunch</option>
+                                <option value="family">family</option>
+                                <option value="dessert">dessert</option>
+                                <option value="pasta">pasta</option>
+                                <option value="specialty">specialty</option>
+                                <option value="classic">classic</option>
+                                <option value="fresh seafood">fresh seafood</option>
+                                <option value="chicken">chicken</option>
+                                <option value="sides">sides</option>
+                                <option value="kids menu">kids menu</option>
+                                <option value="happy hour">happy hour</option>
+                            </select>
+                        </div>
+                    </form>
+                    <div class="dinner-parent">
+                        dinner
+                    </div>
+                    <div class="dinner-parent">
+                        lunch
+                    </div>
+                    <div class="dinner-parent">
+                        family
+                    </div>
+                    <div class="dinner-parent">
+                        dessert
+                    </div>
+                    <div class="dinner-parent">
+                        pasta
+                    </div>
+                    <div class="dinner-parent">
+                        specialty
+                    </div>
+                    <div class="dinner-parent">
+                        classic
+                    </div>
+                    <div class="dinner-parent">
+                        fresh seafood
+                    </div>
+                    <div class="dinner-parent">
+                        chicken
+                    </div>
+                    <div class="dinner-parent">
+                        sides
+                    </div>
+                    <div class="dinner-parent">
+                        kids menu
+                    </div>
+                    <div class="dinner-parent">
+                        happy hour
+                    </div>
+                </div>
+            </section>
+            <div class="footer-parent-icons">
+                <span title="facebook">
+                    <a class="footer-icons1"
+                        href="#"><ion-icon
+                            style="pointer-events:
+                            none;"
+                            name="logo-facebook"></ion-icon></a>
+                </span>
+                <span title="instagram">
+                    <a class="footer-icons2" href="#"><ion-icon
+                            style="pointer-events:
+                            none;"
+                            name="logo-instagram"></ion-icon></a>
+                </span>
+                <span title="twitter">
+                    <a class="footer-icons3" href="#"><ion-icon
+                            style="pointer-events:
+                            none;"
+                            name="logo-twitter"></ion-icon></a>
+                </span>
+            </div>
+        <footer class="footer-parent3">
+            <h3>© 2021 jorum Group / jorum. All Rights Reserved.</h3>
+            <a href="#">Terms & Privacy Policy</a>
+            <a href="#">careers</a>
+            <a href="#">Managed by Creating Digital</a>
+        </footer>
+        </div>
+        <script type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
